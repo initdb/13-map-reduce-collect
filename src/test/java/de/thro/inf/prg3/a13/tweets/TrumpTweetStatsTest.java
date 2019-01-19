@@ -1,5 +1,8 @@
 package de.thro.inf.prg3.a13.tweets;
 
+import de.thro.inf.prg3.a13.TrumpTweetStats;
+import de.thro.inf.prg3.a13.TweetSource;
+import de.thro.inf.prg3.a13.TweetStreamFactory;
 import de.thro.inf.prg3.a13.model.Tweet;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;

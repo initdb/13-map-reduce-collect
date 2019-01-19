@@ -1,4 +1,4 @@
-package de.thro.inf.prg3.a13.tweets;
+package de.thro.inf.prg3.a13;
 
 /**
  * Determine the source of tweets

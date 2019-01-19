@@ -1,5 +1,7 @@
 package de.thro.inf.prg3.a13.tweets;
 
+import de.thro.inf.prg3.a13.TweetSource;
+import de.thro.inf.prg3.a13.TweetStreamFactory;
 import de.thro.inf.prg3.a13.model.Tweet;
 import org.junit.jupiter.api.Test;
 

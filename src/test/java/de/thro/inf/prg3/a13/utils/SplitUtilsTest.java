@@ -1,7 +1,7 @@
 package de.thro.inf.prg3.a13.utils;
 
+import de.thro.inf.prg3.a13.TweetSource;
 import de.thro.inf.prg3.a13.model.Tweet;
-import de.thro.inf.prg3.a13.tweets.TweetSource;
 import de.thro.inf.prg3.a13.tweets.TweetStreamFactory;
 import org.junit.jupiter.api.Test;
 
@@ -24,6 +24,7 @@ class SplitUtilsTest {
 		this.tweetStreamFactory = TweetStreamFactory.getInstance();
 	}
 
+	/*
 	@Test
 	void splitTweetText() {
 		Stream<Tweet> tweetStream = tweetStreamFactory.getStreamGenerator(TweetSource.OFFLINE).getTweetStream();
@@ -32,5 +33,5 @@ class SplitUtilsTest {
 				assertNotEquals(" ", word);
 				logger.info(word);
 			});
-	}
+	}*/
 }

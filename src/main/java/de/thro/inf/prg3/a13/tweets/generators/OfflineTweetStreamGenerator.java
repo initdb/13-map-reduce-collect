@@ -1,6 +1,7 @@
 package de.thro.inf.prg3.a13.tweets.generators;
 
 import com.google.gson.Gson;
+import de.thro.inf.prg3.a13.generators.TweetStreamGenerator;
 import de.thro.inf.prg3.a13.model.Tweet;
 
 import java.io.IOException;
